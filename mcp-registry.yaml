@@ -1,0 +1,17 @@
+config_schema:
+  type: object
+  required: []
+  properties: {}
+
+server_name: sentry-mcp-stdio-copy
+command: npx
+args:
+  - -y
+  - sentry-mcp-stdio-copy@latest
+env: []
+
+description: A Model Context Protocol server for relaying or duplicating stdio streams, intended for integration with Sentry or similar logging/monitoring systems.
+owner: Ojhkmhoiuyhi
+license: MIT
+package: sentry-mcp-stdio-copy
+vendor: Cprime
